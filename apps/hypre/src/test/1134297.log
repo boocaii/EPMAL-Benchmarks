@@ -1,0 +1,40 @@
+Sender: LSF System <lsfadmin@node448>
+Subject: Job 1134297: <mpijob -n 2 ./new_ij -n 1000 1000 1000> in cluster <tc4600> Done
+
+Job <mpijob -n 2 ./new_ij -n 1000 1000 1000> was submitted from host <tc4600v4> by user <hitzjp> in cluster <tc4600>.
+Job was executed on host(s) <2*node448>, in queue <testv4>, as user <hitzjp> in cluster <tc4600>.
+</home/cs/hitzjp> was used as the home directory.
+</home/cs/hitzjp/workspace/epmal/programs/apps/hypre/src/test> was used as the working directory.
+Started at Results reported on 
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+mpijob -n 2 ./new_ij -n 1000 1000 1000
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   15.07 sec.
+    Max Memory :                                 533 MB
+    Average Memory :                             533.00 MB
+    Total Requested Memory :                     -
+    Delta Memory :                               -
+    Max Swap :                                   8140 MB
+    Max Processes :                              7
+    Max Threads :                                10
+    Run time :                                   8 sec.
+    Turnaround time :                            9 sec.
+
+The output (if any) follows:
+
+Running with these driver parameters:
+  solver ID    = 0
+
+  Laplacian:   num_fun = 1
+    (nx, ny, nz) = (1000, 1000, 1000)
+    (Px, Py, Pz) = (1, 2, 1)
+    (cx, cy, cz) = (1.000000, 1.000000, 1.000000)
+

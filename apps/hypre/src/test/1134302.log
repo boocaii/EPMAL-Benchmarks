@@ -1,0 +1,40 @@
+Sender: LSF System <lsfadmin@node448>
+Subject: Job 1134302: <./new_ij -n 1000 1000 1000> in cluster <tc4600> Done
+
+Job <./new_ij -n 1000 1000 1000> was submitted from host <tc4600v4> by user <hitzjp> in cluster <tc4600>.
+Job was executed on host(s) <2*node448>, in queue <testv4>, as user <hitzjp> in cluster <tc4600>.
+</home/cs/hitzjp> was used as the home directory.
+</home/cs/hitzjp/workspace/epmal/programs/apps/hypre/src/test> was used as the working directory.
+Started at Results reported on 
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./new_ij -n 1000 1000 1000
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   14.96 sec.
+    Max Memory :                                 325 MB
+    Average Memory :                             325.00 MB
+    Total Requested Memory :                     -
+    Delta Memory :                               -
+    Max Swap :                                   7813 MB
+    Max Processes :                              3
+    Max Threads :                                4
+    Run time :                                   15 sec.
+    Turnaround time :                            16 sec.
+
+The output (if any) follows:
+
+Running with these driver parameters:
+  solver ID    = 0
+
+  Laplacian:   num_fun = 1
+    (nx, ny, nz) = (1000, 1000, 1000)
+    (Px, Py, Pz) = (1, 1, 1)
+    (cx, cy, cz) = (1.000000, 1.000000, 1.000000)
+
